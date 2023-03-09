@@ -11,6 +11,9 @@ export default function App() {
       <Text style={styles.subtitle1}>Utilizamos o Prompt de comando, node.js e yarn.</Text>
       <Text style={styles.title2}>COMO INSTALAR</Text>
       <Text style={styles.subtitle2}>Você deverá usar o comando no cmd. Yarn start</Text>
+      <Text style={styles.title3}>USE O VSCODE</Text>
+      <Text style={styles.subtitle3}>Faça a sua programação usando o VSCODE</Text>
+      <Text style={styles.img}>IMAGEM</Text>
 
 
 
@@ -37,7 +40,7 @@ const styles = StyleSheet.create({
   },
 
   title1: {
-    flex: 1,
+
     alignItems: 'flex-start',
     width: '100%',
     paddingTop: 75,
@@ -46,33 +49,49 @@ const styles = StyleSheet.create({
     paddingLeft: 10,
   },
   subtitle1: {
-    paddingBottom: 500,
-    flex: 1,
-    alignItems: 'flex-start',
+    display: 'flex',
     width: '100%',
     paddingLeft: 10,
+    paddingBottom: 50,
   },
   title2: {
-    flex: 1,
+
     alignItems: 'flex-start',
     width: '100%',
     fontWeight: 'bold',
     fontSize: 24,
     paddingLeft: 10,
-  
-  
   },
-subtitle2: {
-  flex: 1,
-  alignItems: 'flex-start',
-  width: '100%',
-  padding: 10,
+  subtitle2: {
 
+    display: 'flex',
+    width: '100%',
+    padding: 10,
+    paddingBottom: 50,
+  },
+  title3: {
+    alignItems: 'flex-start',
+    width: '100%',
+    fontWeight: 'bold',
+    fontSize: 24,
+    paddingLeft: 10,
 
+  },
+  subtitle3: {
 
-}
-
-
+    display: 'flex',
+    width: '100%',
+    padding: 10,
+    paddingBottom: 50,
+  },
+  img: {
+    backgroundColor: 'red',
+    width: '100%',
+    height: 350,
+    paddingLeft: 170,
+    paddingTop: 130,
+    fontWeight: 'bold',
+  },
 
 
 });
